@@ -1,12 +1,12 @@
 import axios from 'axios';
 import { updateExistingSong, createSong ,deleteExistingSong} from '../redux/songsSlice';
-const API_BASE_URL = 'http://localhost:5000/api';
+const API_BASE_URL = 'https://manage-song.onrender.com/api';
 
-export const getAllSongs = () => axios.get(`http://localhost:5000/api/songs`);
-export const getAllStaticSongs = () => axios.get(`http://localhost:5000/api/songs/statistics`);
-export const getAllStaticgenres = () => axios.get(`http://localhost:5000/api/songs/statistics/genres`);
-export const getAllStaticartists = () => axios.get(`http://localhost:5000/api/songs/statistics/artists`);
-export const getAllStaticSongAlbum = () => axios.get(`http://localhost:5000/api/songs/statistics/albumsong`);
+export const getAllSongs = () => axios.get(`https://manage-song.onrender.com/api/songs`);
+export const getAllStaticSongs = () => axios.get(`https://manage-song.onrender.com/api/songs/statistics`);
+export const getAllStaticgenres = () => axios.get(`https://manage-song.onrender.com/api/songs/statistics/genres`);
+export const getAllStaticartists = () => axios.get(`https://manage-song.onrender.com/api/songs/statistics/artists`);
+export const getAllStaticSongAlbum = () => axios.get(`https://manage-song.onrender.com/api/songs/statistics/albumsong`);
 
 
 
